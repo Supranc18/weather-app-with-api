@@ -92,16 +92,16 @@ form button:hover{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
     .mid{
         flex-direction: column;
         gap: 10px;
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media (max-width: 500px) {
    body{
-    font-size: 10px;
+    font-size: 5px;
    }
    
   }
