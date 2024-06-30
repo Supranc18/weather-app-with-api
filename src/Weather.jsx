@@ -8,7 +8,7 @@ export default function Weather() {
   useEffect(() => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/current.json?key=20e1941622da47abb0952611243006&q=${cityName}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=20e1941622da47abb0952611243006&q=${cityName}&aqi=no`
       )
       .then((response) => {
         console.log(response.data);
