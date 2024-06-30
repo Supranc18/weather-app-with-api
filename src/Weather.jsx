@@ -26,7 +26,7 @@ export default function Weather() {
       <div>
         <nav className="nav">
           <div className="leftnav">
-            <img src="/src/image/images.jfif" alt="" />
+            <img src="./src/image/images.jfif" alt="" />
             <h2>Weather App</h2>
           </div>
           <form onSubmit={formHandel}>
