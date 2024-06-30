@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import logo from "./images.jfif";
 
 export default function Weather() {
   const [cityName, setCityName] = useState("nepal");
@@ -26,7 +27,7 @@ export default function Weather() {
       <div>
         <nav className="nav">
           <div className="leftnav">
-            <img src="src/image/images.jfif" alt="logo" />
+          <img src={logo} alt="logo" />
             <h2>Weather App</h2>
           </div>
           <form onSubmit={formHandel}>
