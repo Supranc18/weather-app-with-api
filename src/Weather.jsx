@@ -23,10 +23,12 @@ export default function Weather() {
 
   return (
     <>
-      <div>
+      <div className="position">
+      <img className="background"  src="/background.jpg" alt="" />
+        
         <nav className="nav">
           <div className="leftnav">
-            <img src="/public/images.jfif" alt="logo" />
+            <img src="/images.jfif" alt="logo" />
             <h2>Weather App</h2>
           </div>
           <form onSubmit={formHandel}>
